@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+.header{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:black;
+}
+.main > div{
+    margin-top: 5%;
+}
+.controls {
+    width: 100%; 
+    height: 50px;
+    display:flex;
+    justify-content: center;
+}
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6{
+    width: 5%;
+    height: 120%;
+    border-radius: 5%;
+}
